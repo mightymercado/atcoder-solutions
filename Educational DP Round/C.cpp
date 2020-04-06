@@ -7,7 +7,7 @@ using i64 = long long;
 using namespace std;
 
 const int maxn = 1e5;
-i64 a[maxn + 1][3] = {0}, dp[maxn][3] = {0};
+i64 a[maxn + 1][3] = {0}, dp[maxn + 1][3] = {0};
 
 int main() {
   int n;
