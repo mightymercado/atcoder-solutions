@@ -5,7 +5,7 @@
 using namespace std;
 
 const int maxn = 300;
-double dp[maxn + 1][maxn + 1][maxn + 1] = {0};
+double dp[3 * maxn + 1][2 * maxn][maxn + 1] = {0};
 int occur[3] = {0};
 
 void test() {
@@ -42,5 +42,6 @@ int main() {
       }
     }
   }
+  cout.precision(10);
   cout << dp[occur[0]][occur[1]][occur[2]]  << '\n';
 }
